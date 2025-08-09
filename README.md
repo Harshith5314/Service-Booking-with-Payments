@@ -40,7 +40,8 @@ Includes separate flows/pages for Service Seekers and Service Providers, area se
 
 ## 📁 Project Structure
 
-Service-Booking-with-Payments/
+
+'''Service-Booking-with-Payments/
 │
 ├── index.html
 ├── login-seeker.html
@@ -60,9 +61,6 @@ Service-Booking-with-Payments/
 ├── payment.js
 │
 └── README.md
-
-
-
 
 
 - **styles.css**: Bootstrap dark theme overrides + scroller/buttons/mobile tweaks.
