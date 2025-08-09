@@ -40,21 +40,26 @@ Includes separate flows/pages for Service Seekers and Service Providers, area se
 
 ## 📁 Project Structure
 
-service-platform/
+Service-Booking-with-Payments/
 │
 ├── index.html
 ├── login-seeker.html
 ├── register-seeker.html
 ├── seeker-dashboard.html
+│
 ├── login-provider.html
 ├── register-provider.html
 ├── provider-dashboard.html
+│
 ├── payment.html
+│
 ├── styles.css
 ├── auth.js
 ├── seeker.js
 ├── provider.js
 ├── payment.js
+│
+└── README.md
 
 
 
