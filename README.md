@@ -40,42 +40,11 @@ Includes separate flows/pages for Service Seekers and Service Providers, area se
 
 ## 📁 Project Structure
 
-
-'''Service-Booking-with-Payments/
-│
-├── index.html
-├── login-seeker.html
-├── register-seeker.html
-├── seeker-dashboard.html
-│
-├── login-provider.html
-├── register-provider.html
-├── provider-dashboard.html
-│
-├── payment.html
-│
-├── styles.css
-├── auth.js
-├── seeker.js
-├── provider.js
-├── payment.js
-│
-└── README.md
-
-
 - **styles.css**: Bootstrap dark theme overrides + scroller/buttons/mobile tweaks.
 - **auth.js**: Registration/login via localStorage (for demo purposes only).
 - **seeker.js**: Handles booking, real-time provider confirmation/cancel flow.
 - **provider.js**: Handles service management and booking notifications/acceptance.
 - **payment.js**: Loads booking details by ID, processes simulated payment, and confirms.
-
-## 🏙️ Supported Hyderabad Areas
-
-- Gachibowli
-- Hitech City
-- Banjara Hills
-- Madhapur
-- Kukatpally
 
 ## 💡 How It Works
 
