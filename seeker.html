@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Service Seeker - Book a Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <span style="color:white;font-weight:bold;">Service Platform</span>
+    <div>
+      <a href="seeker.html">Seeker</a>
+      <a href="provider.html">Provider</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Book a Service</h1>
+    <form id="bookingForm">
+      <label for="service">Select Service</label>
+      <select id="service" required>
+        <option value="">Choose...</option>
+        <option value="salon">Salon</option>
+        <option value="cleaning">Cleaning</option>
+        <option value="repair">Repair</option>
+        <option value="repair">Clothes Washing</option>
+      </select>
+
+      <label for="date">Select Date</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Select Time Slot</label>
+      <select id="time" required>
+        <option value="">Choose...</option>
+      </select>
+
+      <label for="payment">Payment Method</label>
+      <select id="payment" required>
+        <option value="">Select payment</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="upi">UPI</option>
+        <option value="netbanking">Net Banking</option>
+      </select>
+
+      <div id="payment-fields"></div>
+      <button type="submit">Book & Pay</button>
+    </form>
+
+    <div id="confirmation" class="hidden"></div>
+  </main>
+
+  <script src="seeker.js"></script>
+</body>
+</html>

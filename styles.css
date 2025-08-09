@@ -1,0 +1,67 @@
+body {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.card {
+  background-color: #1e1e1e !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+}
+.card-body { color: #ddd !important; }
+
+.form-control, .form-select {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+}
+.form-control:focus, .form-select:focus {
+  background-color: #2f2f2f !important;
+  color: #fff !important;
+  border-color: #0d6efd !important;
+  box-shadow: none !important;
+}
+
+.btn, .btn:focus {
+  transition: background 0.16s, color 0.16s, box-shadow 0.15s, transform 0.1s;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary { background-color: #0d6efd !important; border: none !important; }
+.btn-primary:hover { background-color: #0b5ed7 !important; }
+.btn-success { background-color: #198754 !important; border: none !important; }
+.btn-success:hover { background-color: #157347 !important; }
+.btn-danger { background-color: #dc3545 !important; border: none !important; }
+.btn-danger:hover { background-color: #bb2d3b !important; }
+
+a { color: #66b3ff !important; }
+a:hover { color: #99ccff !important; }
+
+.scroll-services-list {
+  max-height: 144px;
+  overflow-y: auto;
+  background: #222;
+  border-radius: 6px;
+  padding: 0.5em 0.8em;
+}
+.scroll-services-list .service-option {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  text-align: left;
+  padding: 0.45em 0;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+.scroll-services-list .service-option:hover {
+  background: #293250;
+  color: #66b3ff;
+}
+
+@media (max-width: 576px) {
+  .container { padding-left: 1rem !important; padding-right: 1rem !important; }
+  h1,h2,h3 { font-size: 1.4rem !important; }
+  .btn { padding: 0.65rem 1rem !important; font-size: 1rem !important; }
+  .form-control, .form-select { font-size: 0.95rem !important; padding: 0.6rem 0.75rem !important; }
+}
